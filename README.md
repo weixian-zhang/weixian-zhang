@@ -2,7 +2,8 @@
 
 I help customers design, build and ship AI applications and agents on Azure.
 
-I've worn a few hats over the years: software engineer, software architect, cloud solution architect. I've been lucky to learn a lot in each one, and underneath, they all came down to the same thing for me: delivering software.
+I've worn a few hats over the years: software engineer, software architect, cloud solution architect.  
+I've been lucky to learn a lot in each role, and luckier still that all three let me do what I love most: delivering software.
 
 Lately I've been going deep on Harness Engineering, the code around the model that turns it into an agent.  
 I've been learning from some of the best in the industry through their generously open-sourced work:  
