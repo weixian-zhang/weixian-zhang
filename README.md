@@ -8,8 +8,16 @@ Lately I've been going deep on Harness Engineering, the code around the model th
 I've been learning from some of the best in the industry through their generously open-sourced work:  
 Hermes Agent, Kimi Code, OpenClaw, pi-agent-core, DeepSeek Harness and more.
 
-What fascinates me is how differently each one is built. For example, some run the agent loop as plain nested `while` and `for` loops.  
-Others treat it as a queue of turns and steps, and the agent keeps looping by dequeuing the next turn or step message.  
+What fascinates me is how differently each one is built, and how small design choices make a big difference.  
+Here are a few **Harness Tactics**, as I like to call them, that stuck with me:
+
+- The agent loop can be plain nested `while` and `for` loops, or a queue of turns and steps that the agent works through one message at a time.
+- A plugin framework like Cordis can make every part of the harness swappable.
+- A coding agent with just a few simple tools (`bash`, `ls`, `grep`, `glob`) can often do more than one handed dozens of specialised tools.
+- Tool descriptions can live in plain `.md` files instead of being buried in code.
+- A scratchpad tool gives the agent somewhere to jot down notes and remember things, just like we do.
+- …and plenty more.
+
 Same problem, very different solutions, and every one of them teaches me something new.
 
 I bring those lessons back into the agents I build with customers, so they hold up when the real world gets messy.
