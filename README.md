@@ -14,10 +14,10 @@ Here are a few **Harness Tactics**, as I like to call them, that stuck with me:
 
 - The agent loop can be plain nested `while` and `for` loops, or a queue of turns and steps that the agent works through one message at a time.
 - A plugin framework like Cordis can make every part of the harness swappable.
-- A coding agent with just a few simple tools (`bash`, `ls`, `grep`, `glob`) can often do more than one handed dozens of specialised tools.
-- Tool descriptions can live in plain `.md` files instead of being buried in code.
-- A scratchpad tool gives the agent somewhere to jot down notes and remember things, just like we do.
-- …and plenty more.
+- An agent with just a few simple tools (`bash`, `ls`, `grep`, `glob`) can often do more than one handed dozens of specialised tools.
+- Tool descriptions can live in `.md` files instead of being buried in code.
+- Scratchpad tools like todo.md, soul.md, plan.md (more), give the agent somewhere to plan, jot down notes and remember important things across sessions, just like we do.
+- …and more.
 
 Same problem, very different solutions, and every one of them teaches me something new.
 
