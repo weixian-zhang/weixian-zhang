@@ -12,7 +12,7 @@ Hermes Agent, Kimi Code, OpenClaw, pi-agent-core, DeepSeek Harness and more.
 What fascinates me is how differently each one is built, and how small design choices make a big difference.  
 Here are a few **Harness Tactics**, as I like to call them, that stuck with me:
 
-- The agent loop can be plain nested `while` and `for` loops, or a queue of turns and steps that the agent works through one message at a time.
+- The agent loop can be plain nested `while` and `for` loops, or a queue of turns and steps that the agent works through one message at a time.  Midway steering messages can be injected into queue without disruption to loop.
 - A plugin framework like Cordis can make every part of the harness swappable.
 - An agent with just a few simple tools (`bash`, `ls`, `grep`, `glob`) can often do more than one handed dozens of specialised tools.
 - Tool descriptions can live in `.md` files instead of being buried in code.
