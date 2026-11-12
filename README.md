@@ -5,9 +5,7 @@ I help customers design, build and ship AI applications and agents on Azure.
 I've worn a few hats over the years: software engineer, software architect, cloud solution architect.  
 I've been lucky to learn a lot in each role, and luckier still that all three let me do what I love most: delivering software.
 
-Lately I've been going deep on Harness Engineering.  
-I've been learning from some of the best in the industry through their generously open-sourced work:  
-Hermes Agent, Kimi Code, OpenClaw, pi-agent-core, DeepSeek Harness and more.
+Lately, I've been exploring Harness Engineering through open-source projects like Hermes Agent, Kimi Code, OpenClaw, pi-agent-core, DeepSeek Harness, and more.
 
 What fascinates me is how differently each one is built, and how small design choices make a big difference.  
 Here are a few **Harness Tactics**, as I like to call them, that stuck with me:
