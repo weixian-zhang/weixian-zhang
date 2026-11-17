@@ -5,9 +5,8 @@ I help customers design, build and ship AI applications and agents on Azure.
 I've worn a few hats over the years: software engineer, software architect, cloud solution architect.  
 Each role has taught me a lot, and I'm lucky they've all let me do what I love: delivering software.
 
-Lately, I've been exploring Harness Engineering through open-source projects like Hermes Agent, Kimi Code, OpenClaw, pi-agent-core, DeepSeek Harness, and more.
-
-What fascinates me is how differently each one is built, and how small design choices make a big difference.  
+Lately, I've been learning about Harness Engineering by digging into the source code of open source coding harnesses like Hermes Agent, Kimi Code, OpenClaw, pi-agent-core, DeepSeek Harness.
+What fascinates me is how each harness shares a similar structure, yet has its own unique design.
 Here are a few **Harness Tactics**, as I like to call them, that stuck with me:
 
 - The agent loop can be plain nested `while` and `for` loops, or a queue of turns and steps that the agent works through one message at a time.  Midway steering messages can be injected into queue without disruption to loop.
